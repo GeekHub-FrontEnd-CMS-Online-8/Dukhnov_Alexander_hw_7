@@ -1,0 +1,135 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Блок первый */
+header {
+  width: 100%;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_logo {
+  margin-top: 30px;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+nav {
+  margin-top: 45px;
+  margin-left: 21.5%;
+}
+
+.topnav a {
+  color: #635c73;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn_now {
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  background: #8d81ac;
+  color: #fff;
+}
+
+/* Блок второй */
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.main_fork {
+  background-image: url(../img/notebook.png);
+  background-repeat: no-repeat top / center;
+  text-align: center;
+  padding: 150px 0 505px 0;
+  margin-top: 35px;
+}
+
+.main_fork h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.real {
+  color: #8d81ac;
+  font-size: 22px;
+  margin-top: 18px;
+}
+
+.vers {
+  color: #848e97;
+  font-size: 12px;
+  margin-top: 18px;
+  text-transform: uppercase;
+}
+
+/* Блок третий */
+.dowload {
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  padding: 20px 30px;
+  background: #8d81ac;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+  width: 290px;
+  margin: auto;
+}
+
+.trial {
+  font-size: 14px;
+  color: #848e97;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.main_about h2 {
+  font-size: 40px;
+  color: #635c73;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.about_h2 {
+  font-size: 15px;
+  color: #635c73;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.gitbtn {
+  text-align: center;
+}
