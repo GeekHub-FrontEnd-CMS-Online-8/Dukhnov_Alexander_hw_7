@@ -43,8 +43,6 @@ nav {
 }
 /* Блок второй */
 main {
-	display: flex;
-	flex-direction: column;
 	width: 100%;
 }
 .main_fork {
@@ -82,6 +80,7 @@ main {
 	letter-spacing: 1px;
 	width: 290px;
 	margin: auto;
+	text-align: center;
 }
 
 .trial {
@@ -103,8 +102,17 @@ main {
 	color: #635c73;
 	line-height: 1.5;
 	text-align: center;
+	margin-top: 40px;
 }
 
 .gitbtn {
-	text-align: center;	
+	text-align: center;
+	margin-top: 40px;	
+}
+.title {
+	text-align: right;
+	padding-right: 147px;
+	font-size: 35px;
+	color: #8d81ac;
+	margin-top: 154px;
 }
